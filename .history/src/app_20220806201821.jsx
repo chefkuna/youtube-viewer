@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import VideoList from './components/video_list/video_list';
 import './app.css';
 
 function App() {

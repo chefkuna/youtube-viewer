@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import VideoList from './components/video_list/video_list';
-import './App.css';
+import './app.css';
 
 function App() {
   const [videos, setVideos] = useState([]);

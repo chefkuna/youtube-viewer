@@ -1,0 +1,16 @@
+.video {
+  display : flex;
+  align-items: center;
+  border : 1px solid lightgrey;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.title,
+.channel {
+  margin: 0;
+}
+
+.channel {
+  font-size: 14px;
+}

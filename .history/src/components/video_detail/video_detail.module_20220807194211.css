@@ -1,0 +1,8 @@
+.detail {
+  padding: 0.2em;
+  position: sticky;
+}
+
+.description {
+  white-space: pre-wrap;
+}

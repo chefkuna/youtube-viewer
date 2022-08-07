@@ -1,7 +1,7 @@
 .videos {
   display: flex;
   flex-wrap: wrap;
-  padding-inline-start: 0;
+  padding : 0;
   justify-content: center;
   margin : 0;
 }

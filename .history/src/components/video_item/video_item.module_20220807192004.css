@@ -1,12 +1,13 @@
 .container {
-  border: 1px solid lightgrey;
-  margin: 4px;
-  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.54);
-  padding: 2px;
+  width: 45%;
+  border : 1px solid lightgrey;
+  /* padding: 8px;
+  margin: 8px; */
+  box-shadow: 5px 5px 6px 0px rgba(0,0,0,0.54);
 }
 
 .container.grid {
-  width: 49%;
+  width: 45%;
 }
 
 .container.list {
@@ -27,11 +28,11 @@
 .title,
 .channel {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 18px;
 }
 
 .channel {
-  font-size: 0.6px;
+  font-size: 16px;
 }
 
 .thumbnail {

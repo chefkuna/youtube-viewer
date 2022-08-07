@@ -4,7 +4,7 @@ import styles from './video_item.module.css';
 const VideoItem = ({ video, video: { snippet }, onVideoClick, display }) => {
   const displayType = display === 'list' ? styles.list : styles.grid;
   return (
-    <ul
+    <li
       className={`${styles.container} ${displayType}`}
       onClick={() => onVideoClick(video)}
     >
@@ -19,7 +19,7 @@ const VideoItem = ({ video, video: { snippet }, onVideoClick, display }) => {
           <p className={styles.channel}>{snippet.channelTitle}</p>
         </div>
       </div>
-    </ul>
+    </li>
   );
 };
 

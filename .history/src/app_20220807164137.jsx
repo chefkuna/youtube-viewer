@@ -7,19 +7,21 @@ function App({ youtube }) {
   const [videos, setVideos] = useState([]);
   const search = query => {
     youtube.search(query)
-      .then(query)
-      .then(videos => setVideos(videos));
+    .then(console.log);
+    
+          
+      .catch(error => console.log('error', error))
   }
-
-  useEffect(()=>{
-    youtube
-      .mostPopular()
-      .then(videos => setVideos(videos));
-  }, []);
   
+  useEffect(()=>{
+
+  }, []);
+
   return (
   <div className={styles.app}>
-    <SearchHeader onSearch={search}/>
+    <SearchHeader
+      onSearch={search}
+    />
     <VideoList videos={videos} />
   </div>
   )

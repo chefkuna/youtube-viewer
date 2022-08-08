@@ -28,7 +28,7 @@ function App({ youtube }) {
   }, []);
   return (
     <div className={styles.app}>
-      <SearchHeader onSearch={search} />
+      <SearchHeader onSearch={search} onLogoClick={selectVideo}/>
       <section className={styles.content}>
         {selectedVideo && (
           <div className={styles.detail}>

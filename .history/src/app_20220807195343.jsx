@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './app.module.css';
 import VideoList from './components/video_list/video_list';
 import SearchHeader from './components/video_search/search_header';
@@ -18,9 +18,9 @@ function App({ youtube }) {
     youtube
       .search(query) //
       .then(videos => setVideos(videos));
-  }, [youtube]
+  }
   );
-
+  
   useEffect(() => {
     youtube
       .mostPopular() //

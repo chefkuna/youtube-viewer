@@ -9,7 +9,7 @@ class Youtube {
     const response = await this.youtube.get('videos',{
       params: {
         part: 'snippet',
-        chart: 'mostPopular',
+        char: 'mostPopular',
         maxResults: 25,
       },
     });
